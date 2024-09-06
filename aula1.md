@@ -3,22 +3,22 @@
 O GitHub é uma plataforma de hospedagem de código-fonte e controle de versionamento, ele utiliza o Git como sistema base, porém oferece uma interface gráfica que simplifica seu uso, principalmente O GitHub é uma plataforma de hospedagem de código-fonte e controle de versionamento, que usa o Git como sistema base.
  Algumas das principais funcionalidades do GitHub incluem:
  
-##Controle de versão: 
+### Controle de versão: 
 O GitHub permite acompanhar mudanças no código ao longo do tempo. Isso facilita reverter a versões anteriores, analisar o histórico de modificações e identificar quem fez cada alteração.
 
-##Colaboração: 
+### Colaboração: 
 Vários desenvolvedores podem trabalhar simultaneamente em um projeto, criando ramificações (branches) e pull requests para discutir e integrar novas funcionalidades ou correções.
 
-##Repositórios: 
+### Repositórios: 
 Os projetos são organizados em repositórios, que podem ser públicos (acessíveis por qualquer pessoa) ou privados (acessíveis apenas por colaboradores selecionados).
 
 ##Issues e Pull Requests: 
 O GitHub tem sistemas para rastreamento de bugs e sugestões (issues) e para sugerir alterações no código (pull requests), facilitando a revisão colaborativa.
 
-## Branch
+### Branch
 Uma branch é uma "ramificação" do seu projeto principal (normalmente chamado de main ou master). Ela permite que você desenvolva novas funcionalidades, corrija bugs ou faça experimentos sem afetar o código estável da branch principal. Cada branch é basicamente uma cópia do código em um determinado ponto no tempo, permitindo que você faça mudanças isoladamente.
 
-## Merge
+### Merge
 O merge é o processo de pegar as alterações feitas em uma branch e incorporá-las em outra. Geralmente, isso ocorre quando você finaliza o desenvolvimento de uma funcionalidade em uma branch secundária e deseja mesclar essas mudanças na branch principal.
 
 Além disso, através do git também é possível salvar os seus repositórios favoritos com o "star", ou fazer uma versão próprio do repositório para trabalhar nele utilizando o "fork".
