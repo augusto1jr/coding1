@@ -36,24 +36,38 @@ Introduzido no ES6, o Symbol é um tipo de dado que cria identificadores únicos
 # Operadores:
 
 ### Matemáticos:
-+ mais
-- menos
-* multiplicação
-/ divisão
-% módulo (resto da divisão)
-** potenciação
++\:  mais
+
+\: menos
+
+*\: multiplicação
+
+/\: divisão
+
+%\: módulo (resto da divisão)
+
+**\: potenciação
 
 ### Lógicos:
 && significa E
+
 || significa OU
 
 ### Comparação: 
-== igual (converte tipos diferentes, como string e number)
-=== igual (não converte tipos, portanto, é mais recomendado)
-> maior que
-< menor que
->= maior ou igual a
-<= menor ou igual a
-!= diferente
-!== diferente
+==\: igual (converte tipos diferentes, como string e number)
+
+===\: igual (não converte tipos, portanto, é mais recomendado)
+
+>: maior que
+
+<\: menor que
+
+>=: maior ou igual a
+
+<=\: menor ou igual a
+
+!=\: diferente
+
+!==\: diferente
+
 (diferentes seguem a mesma lógica dos doubles e triple equals)
