@@ -94,3 +94,5 @@ let altura = 1.73
 let imc = (peso / (altura**2)).toFixed(2)
 
 console.log(`Seu IMC é: ${imc}`)
+
+// Update para commit aula 4
