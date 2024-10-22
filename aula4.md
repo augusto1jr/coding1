@@ -1,5 +1,5 @@
 # Clonando repositório do github
-
+```
 git config --global user.name "augusto1jr"
 git config --global user.email "augusto.eu.jr@hotmail.com"
 
@@ -10,3 +10,4 @@ ls + git status
 git add .
 git init
 git push origin main or git push -f origin main
+```
