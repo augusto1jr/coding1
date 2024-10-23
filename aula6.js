@@ -1,6 +1,7 @@
 let livros = ['javascript', 'ECMAScript', 'MongoDB'];
 
 /*
+*/
 // a consulta por index retorna o valor do elemento armazenado naquela posicao
 
 console.log(livros[0]);
@@ -38,10 +39,14 @@ console.log(livros.sort())
 console.log(livros.length)
 
 // Desafio sistema de estoque de frutas
+let frutas = ['Melancia', 'Abacaxi', 'Maçã', 'Laranja', 'Uva', 'Jaca']
 
 // remover a ultima fruta
+console.log(frutas.pop())
 // adicionar uma nova fruta ao final da lista
+console.log(frutas.push('Melão'))
 // mostrar o numero total de frutas na lista
+console.log(frutas.length)
 
 // a funcao splice perimite inserir ou deletar um ou mais elementos, em uma determinada posicao da lista
 
@@ -49,6 +54,7 @@ console.log(livros.length)
 livros.splice(1, 0, 'Node.js', 'Scrum') //index, nº de elementos a serem removidos, valores a serem adicionado
 
 console.log(livros)
+
 
 // a funcao slice permite separar as listas
 
@@ -59,11 +65,15 @@ let corredorA2 = livros.slice(n_livros/2, n_livros) // comeco de recorte ~ final
 console.log('Os livros do corredor A1 são:', corredorA1)
 console.log('Os livros do corredor A2 são:', corredorA2)
 
+
 // a funcao concat permite concatenar listas
 hqs = ['superman', 'x-man', 'batman', 'vingadores']
-
 livros_hqs = livros.concat(hqs)
 
 console.log(livros_hqs)
+ 
+//console.log(livros)
+let local_livros = [3, 4, 1]
+let matriz_local_livros = [livros, local_livros]
 
-*/
+console.log(`O livro ${matriz_local_livros[0][0]} está na prateleira: ${matriz_local_livros[1][0]}`)
