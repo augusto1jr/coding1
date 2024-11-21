@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")();
 
 
 // Funcao que calcula a media de duas notas
-/*function media_tupla(nota1, nota2) {
+function media_tupla(nota1, nota2) {
   return ((nota1 + nota2)/2)
 }
 
@@ -36,10 +36,10 @@ function media_array (array) {
   return media
 }
 
-let notas = [7, 9, 10, 8, 6]
+let array_notas = [7, 9, 10, 8, 6]
 
-console.log("A média do aluno é:", media_array(notas))
-*/
+console.log("A média do aluno é:", media_array(array_notas))
+
 
 // Funcao que calcula a media de um array de notas
 // (segunda versao: interativa)
