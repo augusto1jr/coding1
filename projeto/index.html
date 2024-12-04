@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PsiConnect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PsiConnect</h1>
+
+    <!-- Menu de opções -->
+    <div class="menu">
+      <button onclick="mostrarFormularioCadastro()">Cadastrar Psicólogo</button>
+      <button onclick="mostrarFormularioPesquisa()">Pesquisar Psicólogo</button>
+    </div>
+
+    <!-- Formulário de Cadastro -->
+    <div id="formCadastro" class="formulario">
+      <h2>Cadastro de Psicólogo</h2>
+      <form id="formCadastrar">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required><br>
+
+        <label for="crp">CRP:</label>
+        <input type="text" id="crp" required><br>
+
+        <label for="biografia">Biografia:</label>
+        <textarea id="biografia" required></textarea><br>
+
+        <label for="formacao">Formações (separadas por vírgula):</label>
+        <input type="text" id="formacao" required><br>
+
+        <label for="especialidades">Especialidades (separadas por vírgula):</label>
+        <input type="text" id="especialidades" required><br>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+      <button onclick="esconderFormulario()">Voltar</button>
+    </div>
+
+    <!-- Formulário de Pesquisa -->
+    <div id="formPesquisa" class="formulario">
+      <h2>Pesquisar Psicólogo</h2>
+      <form id="formPesquisar">
+        <label for="pesquisaTipo">Como deseja pesquisar?</label><br>
+        <input type="radio" id="pesquisaNome" name="pesquisaTipo" value="1">
+        <label for="pesquisaNome">Por Nome</label><br>
+        <input type="radio" id="pesquisaCRP" name="pesquisaTipo" value="2">
+        <label for="pesquisaCRP">Por CRP</label><br>
+        <br>
+        <label for="pesquisaValor">Digite o nome ou CRP:</label>
+        <input type="text" id="pesquisaValor" required><br>
+
+        <button type="submit">Pesquisar</button>
+      </form>
+      <button onclick="esconderFormulario()">Voltar</button>
+    </div>
+
+    <!-- Resultado da Pesquisa -->
+    <div id="resultadoPesquisa"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
